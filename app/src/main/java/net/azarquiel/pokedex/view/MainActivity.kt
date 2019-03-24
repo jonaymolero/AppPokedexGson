@@ -8,9 +8,9 @@ import android.view.View
 import com.google.gson.Gson
 import kotlinx.android.synthetic.main.activity_main.*
 import net.azarquiel.pokedex.R
+import net.azarquiel.pokedex.adapter.CustomAdapter
 import net.azarquiel.pokedex.model.Result
 import net.azarquiel.pokedex.model.Results
-import net.azarquiel.recyclerclase.adapter.CustomAdapter
 import org.jetbrains.anko.doAsync
 import org.jetbrains.anko.uiThread
 import java.net.URL

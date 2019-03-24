@@ -1,4 +1,4 @@
-package net.azarquiel.recyclerclase.adapter
+package net.azarquiel.pokedex.adapter
 
 import android.content.Context
 import android.support.v7.widget.RecyclerView
@@ -9,9 +9,6 @@ import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.rowpokemon.view.*
 import net.azarquiel.pokedex.model.Results
 
-/**
- * Created by pacopulido on 9/10/18.
- */
 class CustomAdapter(val context: Context,
                     val layout: Int,
                     val dataList: List<Results>) : RecyclerView.Adapter<CustomAdapter.ViewHolder>() {
